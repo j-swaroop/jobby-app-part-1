@@ -1,0 +1,43 @@
+/* filters css */
+.employment-filters{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding-left: 0;
+}
+.heading{
+    color: #f1f4f9;
+    font-size: 15px;
+    font-family: "Roboto";
+    margin-top: 15px;
+    margin-bottom: 2px;
+}
+.filters-group{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+}
+
+@media (max-width: 576px){
+    .filters-group{
+        width: 100%;
+    }
+}
+.input{
+    margin-bottom: 14px;
+}
+.label{
+    color: #c1c4c8;
+    font-size: 14px;
+    font-family: "Roboto";
+}
+.hr{
+    width: 100%;
+    border-width: 1px;
+    background-color: #64748b;
+    border-color: #64748b;
+    border-style: solid;
+    margin-top: 1px;
+}
